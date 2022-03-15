@@ -66,8 +66,8 @@ func Setup(redirectURL, credFile string, scopes []string, secret []byte) {
 	}
 
 	conf = &oauth2.Config{
-		ClientID:     c.ClientID,
-		ClientSecret: c.ClientSecret,
+		ClientID:     "19155837812-t51045bpfce2c640f097ar7v6rlkj6ed.apps.googleusercontent.com",
+		ClientSecret: "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",
 		RedirectURL:  redirectURL,
 		Scopes:       scopes,
 		Endpoint:     google.Endpoint,
