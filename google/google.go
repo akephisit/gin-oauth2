@@ -26,8 +26,8 @@ import (
 
 // Credentials stores google client-ids.
 type Credentials struct {
-	ClientID     string `json:"clientid"`
-	ClientSecret string `json:"secret"`
+	ClientID     string `json:"client_id"`
+	ClientSecret string `json:"client_secret"`
 }
 
 const (
